@@ -44,7 +44,15 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java",
+           "BiancaSettings/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.bianca.settings"],
+
+    resource_dirs: ["res",
+                    "BiancaSettings/res"
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
