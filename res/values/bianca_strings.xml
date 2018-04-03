@@ -18,4 +18,7 @@
     <string name="bianca_settings_dash_title">Customization</string>
     <string name="bianca_settings_summary">Custom your rom</string>
 
+    <!-- Bianca maintainer -->
+    <string name="maintainer">Maintainer</string>
+
 </resources>
