@@ -44,6 +44,17 @@
         <intent android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES"/>
     </Preference>
 
+    <!-- BiancaProject stats -->
+    <Preference
+        android:key="stats_trigger"
+        android:title="@string/bianca_stats_title"
+        android:summary="@string/bianca_stats_summary">
+        <intent
+             android:action="android.intent.action.MAIN"
+             android:targetPackage="android.romstats"
+             android:targetClass="android.romstats.AnonymousStats" />
+    </Preference>
+
     <!-- Permissions usage -->
     <Preference
         android:key="privacy_permissions_usage"
