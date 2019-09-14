@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="bianca_settings_dash_title">Customization</string>
-    <string name="bianca_settings_summary">Custom your rom</string>
+    <string name="bianca_settings_summary">Monet Engine, Status Bar, etc</string>
 
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>

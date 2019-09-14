@@ -98,6 +98,14 @@
         settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
 
     <Preference
+        android:key="top_level_bianca_settings"
+        android:title="@string/bianca_settings_dash_title"
+        android:summary="@string/bianca_settings_summary"
+        android:icon="@drawable/ic_settings_bianca"
+        android:order="-65"
+        android:fragment="com.bianca.settings.BiancaSettings"/>
+
+    <Preference
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
         android:icon="@drawable/ic_settings_accessibility"
         android:key="top_level_accessibility"
