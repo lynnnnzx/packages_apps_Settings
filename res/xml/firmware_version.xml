@@ -21,10 +21,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Durandal Project logo -->
+    <!-- BiancaProject logo -->
     <PreferenceScreen
-        android:layout="@layout/durandal_logo"
-        android:key="durandal_logo"
+        android:layout="@layout/bianca_logo"
+        android:key="bianca_logo"
         android:selectable="false" />
 
     <!-- Android version -->
