@@ -92,6 +92,7 @@
 
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
 
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Display music visualizer</string>
