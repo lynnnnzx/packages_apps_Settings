@@ -30,7 +30,7 @@ public class PowerMenuSettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.power_menu_settings;
+        return R.xml.bianca_settings_powermenu;
     }
 
     @Override
@@ -44,5 +44,5 @@ public class PowerMenuSettings extends DashboardFragment {
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.power_menu_settings);
+            new BaseSearchIndexProvider(R.xml.bianca_settings_powermenu);
 }
