@@ -21,4 +21,7 @@
     <!-- BiancaProject Installation Stats -->
     <string name="bianca_stats_title">Bianca Stats</string>
     <string name="bianca_stats_summary">Just counting how many devices we run on</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
