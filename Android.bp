@@ -67,6 +67,7 @@ android_library {
         "vendor.lineage.fastcharge-V1.0-java",
         "VendorSupportLib",
         "vendor.lineage.fastcharge-V1.0-java",
+        "faceunlock_framework",
     ],
 
     libs: [
