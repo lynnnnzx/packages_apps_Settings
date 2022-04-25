@@ -51,23 +51,4 @@ public class CustomFirmwareVersionPreferenceController extends BasePreferenceCon
         return SystemProperties.get(VERSION_PROPERTY,
                 mContext.getString(R.string.device_info_default));
     }
-
-    @Override
-    public boolean handlePreferenceTreeClick(Preference preference) {
-        if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
-            return false;
-        }
-
-        final Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(mContext.getString(R.string.custom_firmware_uri)));
-        if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
-            // Don't send out the intent to stop crash
-            Log.w(TAG, "queryIntentActivities() returns empty");
-            return true;
-        }
-
-        mContext.startActivity(intent);
-        return true;
-    }
 }
