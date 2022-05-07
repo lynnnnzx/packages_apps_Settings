@@ -80,4 +80,9 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
+
+    <!-- Mic + Camera indicator -->
+    <string name="mic_camera_indicator_settings_title">Status bar mic and camera indicator</string>
+    <string name="mic_camera_indicator_settings_description">Show for all mic and camera indicator</string>
+
 </resources>
